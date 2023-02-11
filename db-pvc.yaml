@@ -5,6 +5,7 @@ metadata:
     app: mirth-connect
   name: db-pv-claim
 spec:
+  storageClassName: "longhorn"
   accessModes:
     - ReadWriteOnce
   resources:
