@@ -5,6 +5,7 @@ metadata:
    app: mirth-connect
    type: mc-svc
   name: mc
+  namespace: mirth-connect
 spec:
   type: LoadBalancer
   ports:

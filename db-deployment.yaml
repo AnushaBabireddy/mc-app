@@ -4,6 +4,7 @@ metadata:
   labels:
     app: mirthconnect-db
     tier: backend
+  namespace: mirth-connect
   name: db
 spec:
   replicas: 1
