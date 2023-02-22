@@ -7,12 +7,13 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
+  # - host: "longhorn.cube.local"
   - http:
-    paths:
-    - path: /mcapp
-      pathType: Prefix
-      backend:
-        service:
-          name: mc
-          port:
-            number: 9191
+      paths:
+      - path: /mcapp
+        pathType: Prefix
+        backend:
+          service:
+            name: mc
+            port:
+              number: 9191
